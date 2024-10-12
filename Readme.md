@@ -44,7 +44,11 @@ Once you have completed all the prerequisites, you are ready to start using Appi
 
 ### Generate config file for Selenium Grid Set up
 
-run the following command. This will read variable.json and dynamically ceate: 1.**Generate Appium Configs file** 2.**Generate Node Config File that Link Appium** 3.**Generate docker-compose file with dynamic services**
+run the following command. This will read variable.json and dynamically ceate following:
+
+1. **Generate Appium Configs file**
+2. **Generate Node Config File that Link Appium**
+3. **Generate docker-compose file with dynamic services**
 
 ```bash
 ./genrate-config.sh
