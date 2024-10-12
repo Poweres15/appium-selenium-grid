@@ -42,14 +42,6 @@ Once you have completed all the prerequisites, you are ready to start using Appi
 
 ## Selenium Grid Startup
 
-### Navigate to Selenium Grid Folder
-
-First, navigate to the directory that contains your Selenium Grid setup:
-
-```bash
-cd selenium-grid
-```
-
 ### Generate config file for Selenium Grid Set up
 
 run the following command. This will read variable.json and dynamically ceate: 1.**Generate Appium Configs file** 2.**Generate Node Config File that Link Appium** 3.**Generate docker-compose file with dynamic services**
