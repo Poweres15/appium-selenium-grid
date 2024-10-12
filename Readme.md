@@ -68,24 +68,9 @@ Execute the following command to start everything in detached mode:
 ./setup.sh
 ```
 
-### Run WDIO Test
-
-Once the Selenium Grid and Appium servers are running, you can execute your WDIO tests. First, move up one directory level:
-
-```bash
-cd ..
-```
-
-Then, run your test scripts using the following command:
-
-```bash
-npx wdio config/wdio.ios.conf.ts
-```
-
 ### Tear Down Selenium Grid
 
 ```bash
-cd selenium-grid
 ./teardown.sh
 ```
 
