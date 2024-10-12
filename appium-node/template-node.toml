@@ -1,0 +1,24 @@
+[events]
+publish = "tcp://selenium-hub:4442"
+subscribe = "tcp://selenium-hub:4443"
+
+
+[server]
+port = {node_port}
+
+
+[node]
+detect-drivers = false
+
+[relay]
+url = "http://host.docker.internal:{appium_port}"
+status-endpoint = "/status"
+configs = [
+    "1", "{\"platformName\": \"{platform_name}\", \"appium:platformVersion\": \"{platform_version}\", \"appium:deviceName\": \"{device_name}\", \"appium:automationName\": \"XCUITest\", \"appium:wdaLocalPort\": {wda_port} , \"appium:udid\": \"{udid}\"  }"
+]
+
+[sessionqueue]
+host = "selenium-hub"
+subscribe = 4443
+publish = 4442
+max-depth = 5

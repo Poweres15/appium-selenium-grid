@@ -1,0 +1,22 @@
+{
+  "config": [
+    {
+      "appium_port": 4723,
+      "wda_port": 8100,
+      "node_port": 5555,
+      "platform_name": "platform_name",
+      "platform_version": "platform_version",
+      "device_name": "device_name",
+      "udid": "udid"
+    },
+    {
+      "appium_port": 4724,
+      "wda_port": 8110,
+      "node_port": 5556,
+      "platform_name": "platform_name",
+      "platform_version": "platform_version",
+      "device_name": "device_name",
+      "udid": "udid"
+    }
+  ]
+}

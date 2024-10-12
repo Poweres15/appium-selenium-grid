@@ -1,0 +1,7 @@
+# appium1.yml
+server:
+  port: appium_port
+  use-drivers:
+    - xcuitest
+  default-capabilities:
+    wdaLocalPort: wda_port
