@@ -1,3 +1,7 @@
+## Overview
+
+![image description](./resource/diagram.png)
+
 ## Prerequisites
 
 Before you can start using Appium for iOS testing, make sure you have the following components installed and configured:
